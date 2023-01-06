@@ -8,9 +8,8 @@ import java.util.*;
 в файл информацию о студентах в разных формах:
  */
 
-
 public abstract class WriteToFile {
 
-    public abstract void writeFile(Student students);
+    public abstract void writeFile();
 
 }

@@ -9,6 +9,15 @@ public class Main {
         students.add(new Student("Мария Кузнецова", 5.0f));
         students.add(new Student("Степан Кузьмин", 3.6f));
 
+        TxtWriteToFile txt = new TxtWriteToFile(students);
+        txt.writeFile();
+
+        JsonWriteToFile json = new JsonWriteToFile(students);
+        json.writeFile();
+        
+        XmlWriteToFile xml = new XmlWriteToFile(students);
+        xml.writeFile();
+
         // System.out.println(students);
 
         // TXT
@@ -26,8 +35,9 @@ public class Main {
         // System.out.println("<?xml version=\"1.0\" encoding=\"utf-8\" ?>");
         // System.out.println("<students>");
         // for (Student student : students) {
-        //     System.out.println("<student>\n<name>" + student.getName() + "</name>\n<grade>" + student.getGrade()
-        //             + "</grade>\n</student>");
+        // System.out.println("<student>\n<name>" + student.getName() +
+        // "</name>\n<grade>" + student.getGrade()
+        // + "</grade>\n</student>");
         // }
         // System.out.println("</students>");
 
