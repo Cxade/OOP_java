@@ -27,19 +27,3 @@ public class TxtWriteToFile extends WriteToFile {
         }
     }
 }
-
-// @Override
-// public void writeFile() {
-// for (Student student : students) {
-// try (FileWriter writer = new FileWriter("txt.txt", false)) {
-// String text = String.format("%s=%f\n", student.getName(),
-// student.getGrade());
-// writer.append(text);
-
-// } catch (IOException ex) {
-
-// System.out.println(ex.getMessage());
-// }
-
-// }
-// }

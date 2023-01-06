@@ -17,29 +17,5 @@ public class Main {
         
         XmlWriteToFile xml = new XmlWriteToFile(students);
         xml.writeFile();
-
-        // System.out.println(students);
-
-        // TXT
-        // for (Student student : students) {
-        // System.out.println(student.getName() + "=" + student.getGrade());
-        // }
-
-        // JSON
-        // for (Student student : students) {
-        // System.out.println("\"" + student.getName() + "\"" + ": " +
-        // student.getGrade() + ",");
-        // }
-
-        // XML
-        // System.out.println("<?xml version=\"1.0\" encoding=\"utf-8\" ?>");
-        // System.out.println("<students>");
-        // for (Student student : students) {
-        // System.out.println("<student>\n<name>" + student.getName() +
-        // "</name>\n<grade>" + student.getGrade()
-        // + "</grade>\n</student>");
-        // }
-        // System.out.println("</students>");
-
     }
 }

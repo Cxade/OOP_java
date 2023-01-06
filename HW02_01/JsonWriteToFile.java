@@ -27,24 +27,7 @@ public class JsonWriteToFile extends WriteToFile {
     
             System.out.println(ex.getMessage());
         }
-        // @Override
-        // public void writeFile() {
-        //     try (FileWriter writer = new FileWriter("json.txt", false)) {
-        //         for (Student student : students) {
-        //             String text = String.format("\"%s\": %f,\n", student.getName(), student.getGrade());
-        //             writer.append(text);
-        //         }
-        
-        //     } catch (IOException ex) {
-        
-        //         System.out.println(ex.getMessage());
-        //     }
-        
     
     }
 
 }
-
-// public static String removeLastChar(String s) {
-//     return (s == null || s.length() == 0) ? null : (s.substring(0, s.length() - 1));
-// }
