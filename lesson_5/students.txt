@@ -1,0 +1,4 @@
+Student [firstname=Dima, secondname=Petrov, nameOfUniversarty=MSUnameOfDepartment=IT, yeraOfSrudy=1]
+Student [firstname=Victor, secondname=Sidorov, nameOfUniversarty=MSUnameOfDepartment=IT, yeraOfSrudy=1]
+Student [firstname=Vlad, secondname=Ivanov, nameOfUniversarty=MSUnameOfDepartment=IT, yeraOfSrudy=1]
+Student [firstname=Egor, secondname=Petrov, nameOfUniversarty=MSUnameOfDepartment=IT, yeraOfSrudy=1]
